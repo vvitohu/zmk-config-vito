@@ -1,0 +1,8 @@
+CONFIG_ZMK_BEHAVIOR_MACRO=y
+
+if SHIELD_CUSTOM
+
+config ZMK_KEYBOARD_NAME
+    default "Custom"
+
+endif
